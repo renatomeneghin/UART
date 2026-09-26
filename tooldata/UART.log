@@ -1,0 +1,16 @@
+Project Name: UART
+Location: C:\Users\renat\Documents\UFSC\UART
+Description: UART project 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : MPFS025TL-FCVG484E
+Family         : PolarFireSoC
+Die            : MPFS025TL
+Package        : FCVG484
+Speed          : STD
+Core Voltage   : 1.0
+Range          : EXT

@@ -1,0 +1,245 @@
+KEY LIBERO "2025.1"
+KEY CAPTURE "2025.1.0.14"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFireSoC"
+KEY VendorTechnology_Die "PA5SOC025TL"
+KEY VendorTechnology_Package "fcvg484"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5SOC025TL"
+KEY VendorTechnology_TEMPR "EXT"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "EXT"
+KEY ProjectLocation "C:\Users\renat\Documents\UFSC\UART"
+KEY ProjectDescription "UART project "
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "BaudRate_Generator::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\hdl\BaudRate_Generator.vhd,hdl"
+STATE="utd"
+TIME="1790302164"
+SIZE="3492"
+ENDFILE
+VALUE "<project>\hdl\contador.vhd,hdl"
+STATE="utd"
+TIME="1790302164"
+SIZE="1949"
+ENDFILE
+VALUE "<project>\hdl\counter_en_srst.vhd,hdl"
+STATE="utd"
+TIME="1790302164"
+SIZE="1202"
+ENDFILE
+VALUE "<project>\hdl\Flip_Flop_D.vhd,hdl"
+STATE="utd"
+TIME="1790302313"
+SIZE="759"
+ENDFILE
+VALUE "<project>\hdl\Freq_divider.vhd,hdl"
+STATE="utd"
+TIME="1790302164"
+SIZE="2793"
+ENDFILE
+VALUE "<project>\hdl\TFF.vhd,hdl"
+STATE="utd"
+TIME="1790302164"
+SIZE="1340"
+ENDFILE
+VALUE "<project>\hdl\UART_Tx.vhd,hdl"
+STATE="utd"
+TIME="1790302514"
+SIZE="1055"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll
+UseCustomPliPath=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=TRUE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\ModelSim_Pro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "BaudRate_Generator::work","hdl\BaudRate_Generator.vhd","FALSE","FALSE"
+SUBBLOCK "TFF::work","hdl\TFF.vhd","FALSE","FALSE"
+SUBBLOCK "contador_srst::work","hdl\counter_en_srst.vhd","FALSE","FALSE"
+ENDLIST
+LIST "contador::work","hdl\contador.vhd","FALSE","FALSE"
+ENDLIST
+LIST "contador_srst::work","hdl\counter_en_srst.vhd","FALSE","FALSE"
+ENDLIST
+LIST "contador_ud_en::work","hdl\contador.vhd","FALSE","FALSE"
+ENDLIST
+LIST "contador_srst::work","hdl\counter_en_srst.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Flip_Flop_D::work","hdl\Flip_Flop_D.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Freq_divider::work","hdl\Freq_divider.vhd","FALSE","FALSE"
+SUBBLOCK "TFF::work","hdl\TFF.vhd","FALSE","FALSE"
+SUBBLOCK "contador_srst::work","hdl\counter_en_srst.vhd","FALSE","FALSE"
+ENDLIST
+LIST "TFF::work","hdl\TFF.vhd","FALSE","FALSE"
+SUBBLOCK "Flip_Flop_D::work","hdl\Flip_Flop_D.vhd","FALSE","FALSE"
+ENDLIST
+LIST "UART_Tx::work","hdl\UART_Tx.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST
