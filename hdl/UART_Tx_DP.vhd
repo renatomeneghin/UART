@@ -169,9 +169,9 @@ begin
     parity_out <=   parity_val when odd_even = '0' else 
                     not parity_val;
 
-    Data_out <= '0' when OUT_MUX = "00" else
-                '1' when OUT_MUX = "01" else
-                SR_out(SR_out'low) when OUT_MUX = "10" else
+    Data_out <= '0' when T_OUT_MUX = "00" else
+                '1' when T_OUT_MUX = "01" else
+                SR_out(SR_out'low) when T_OUT_MUX = "10" else
                 parity_out;
 
     CONTADOR: contador_ud_en generic map (data_width => 5, dir => '1')
@@ -201,7 +201,7 @@ begin
     port map(
         A => Counter_out,
         B => Comp_in,
-        Cin => '1',
+        Cin => '0',
         S => Comparator_out,
         Cout => open
     );
