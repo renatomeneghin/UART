@@ -4,3 +4,9 @@ UART.prjx
 /viewdraw
 tooldata/libero.27624
 libero_setup_info.txt
+/tooldata
+/smartgen
+/component
+/constraint
+LICENSE.*
+libero_setup_info.*
