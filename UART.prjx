@@ -205,8 +205,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Project Summary:UART.log
+HDL;hdl\Flip_Flop_D.vhd;0
+HDL;hdl\UART_Tx.vhd;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+ACTIVEVIEW;hdl\UART_Tx.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "BaudRate_Generator::work","hdl\BaudRate_Generator.vhd","FALSE","FALSE"

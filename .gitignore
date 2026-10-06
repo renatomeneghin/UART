@@ -1,1 +1,6 @@
 work-obj93.cf
+*.prjx
+UART.prjx
+/viewdraw
+tooldata/libero.27624
+libero_setup_info.txt

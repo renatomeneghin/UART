@@ -22,32 +22,32 @@ use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
 use work.all;
 
-entity UART_Rx_DP is
+entity UART_Rx is
 port (
     -- Input digital signals
 	clk         : IN std_logic;
     rst_n       : IN std_logic;
 
     Data_in     : IN std_logic;
+    parity_en   : IN std_logic;
     odd_even    : IN std_logic;
-    T_init 	    : in std_logic;
-    T_shift 	: in std_logic;
-    T_db_sb     : in std_logic;
         
     -- Input digital data
     nData_bits  : IN  std_logic_vector(2 downto 0);
     nStop_bits  : IN  std_logic_vector(1 downto 0);
-    T_OUT_MUX   : IN  std_logic_vector(1 downto 0);
-    
+
     -- Output digital signals
-    T_counter   : OUT std_logic; 
+    idle        : OUT std_logic;
+    parity_err  : OUT std_logic;
+    overrun_err : OUT std_logic;
+    frame_err   : OUT std_logic;
 
     -- Output digital data
     Data_out    : OUT std_logic_vector(8 downto 0)
 );
-end UART_Rx_DP;
+end UART_Rx;
 
-architecture architecture_UART_Rx_DP of UART_Rx_DP is
+architecture architecture_UART_Rx of UART_Rx is
    -- signal, component etc. declarations
 	signal baud_ratex2      : std_logic;
     signal baud_rate        : std_logic;
@@ -176,8 +176,8 @@ begin
 
     CONTADOR: contador_ud_en generic map (data_width => 5, dir => '1')
         port map(
-            clk     => baud_ratex2, 
-            en      => '1',
+            clk     => clk, 
+            en      => baud_ratex2,
             init    => T_init,
             count   => Counter_out
         );
@@ -212,4 +212,4 @@ begin
             O => T_counter
     );
             
-end architecture_UART_Rx_DP;
+end architecture_UART_Rx;
